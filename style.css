@@ -1,0 +1,263 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+
+}
+:root{
+    --body-font-size:6rem;
+    --h1-font-size:2.25rem;
+    --h2-font-size:1.5rem;
+    --normal-font-size:1rem;
+    --small-font-size:.813rem;
+}
+:root{
+    --body-font:'Open Sans',sans-serif;
+    --big-font-size:3rem;
+    --h1-font-size:1.5rem;
+    --h2-font-size:1.25rem;
+    --normal-font-size:.938rem;
+    --small-font-size:.75rem;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    color:var(--dark-color);
+    line-height:1.6;
+  
+}
+#first{
+    background-color:#F0F1F3 ;
+    height:600px;
+}
+#container{
+    position: fixed;
+    display:flex;
+    background-color:#F0F1F3;
+   
+}
+
+#list{
+    display: flex;
+   
+}
+
+#logo h3{
+    padding:20px;
+    padding-left: 100px;
+    padding-right: 700px;
+    color:#101010;
+}
+#list li{
+    padding:20px;
+    padding-right: 20px;
+    list-style: none;
+}
+#list li a:hover{
+    color:blueviolet;
+}
+
+#list li a{
+    text-decoration: none;
+    color:#101010;
+font-family:'Lato', sans-serif;
+}
+.container2{
+    display:inline-block;
+    margin: 200px;
+    margin-right: 0px;
+    margin-top: 120px;
+    margin-left: 300px;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 0px;
+    
+}
+.head{
+ font-size:120px;
+}
+.head2{
+    font-size: 40px;
+}
+.img img{
+    height:500px;
+    width: 350px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 80px;
+   
+}
+.btn{
+    margin-top: 10px;
+    height: 50px;
+    width:100px;
+    background-color: #E55947;
+    border-color: #E55947 ;
+    font-size: 12px;
+    color: white;
+}
+.bag{
+    display: flex;
+}
+.box{
+    display: flex;
+
+    height:250px;
+    width:500px;
+    border: #F0F1F3;
+    margin: 100px;
+    margin-top: 70px;
+    background-color: #F0F1F3;
+}
+.box:hover{
+    transform: translateY(-.5rem);
+    cursor: pointer;
+}
+.btn:hover{
+    color:black;
+    border-color: #101010;
+}
+.box img{
+    height:240px;
+    padding: 20px;
+    padding-top: 10px;
+}
+.bag1{
+    margin-left: 128px;
+}
+.bag2{
+    margin-left: 0px;
+}
+.headd{
+    margin:80px;
+}
+.headd h3{
+    font-size: 25px;
+    opacity: 0.7;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0px;
+    margin: 0p;
+}
+.headd h2{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.feature{
+    display: flex;
+}
+.feature1{
+    height:200px;
+    width:200px;
+  border-color: #F0F1F3;
+    margin: 40px;
+    margin-left: 80px;
+}
+.feature1:hover{
+    transform: translateY(-.5rem);
+    cursor: pointer;
+}
+.feature1 img{
+    background-color: #F0F1F3;
+    height:200px;
+    width:200px;
+    padding: 0px;
+}
+
+.text{
+justify-content: space-between;
+text-align: center;
+}
+.offer{
+    text-align:center;
+    padding: 40px;
+}
+.offer{
+      background: url('/images/offer.jpg') no-repeat center/cover;
+      opacity: 0.8;
+      }
+.o{
+    color:black;
+}
+.new{
+        display: grid;
+        grid-template-columns:400px 400px 400px ;
+        padding-left: 80px;
+        padding-top: 50px;
+      }
+.item{
+    border-color: #F0F1F3;
+    background-color: #F0F1F3;
+    margin: 10px;
+    align-items: center;
+}
+.item:hover{
+    transform: translateY(-.5rem);
+    cursor: pointer;
+}
+.h {
+    margin-top: 50px;
+    width: 500px;
+    margin-left: 500px;
+}
+.h h1{
+    text-align: center;
+
+}
+.h p{
+    text-align: center;
+}
+.h input{
+    height: 50px;
+    width: 250px;
+    background-color: #F0F1F3;
+    border-color: #F0F1F3;
+    padding-left: 10px;
+    padding-left: 100px;
+}
+.bt{
+    height: 55px;
+}
+.logoo{
+    display:flex;
+    margin-top: 50px;
+}
+.im{
+    margin-top: 200px;
+    margin: auto;
+}
+.mid{
+    text-align: center;
+    margin-top: 40px;
+}
+.last{
+    display: flex;
+    margin-top:100px ;
+    
+}
+.last ul{
+    padding: 50px;
+    margin-left: 50px;
+}
+.last li{
+    color:gray;
+}
+.last h1{
+    color:white;
+}
+.last ul img{
+    height:50px;
+}
+.last{
+    background: #101010;
+    color:white
+}
+.c{
+    background-color: #101010;
+    color:gray;
+    text-align: center;
+    padding:50px;
+}
