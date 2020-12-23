@@ -133,7 +133,7 @@ font-family:'Lato', sans-serif;
     margin-left: 0px;
 }
 .headd{
-    margin:80px;
+    margin:81px;
 }
 .headd h3{
     font-size: 25px;
@@ -176,7 +176,7 @@ text-align: center;
     padding: 40px;
 }
 .offer{
-      background: url('/offer.jpg') no-repeat center/cover;
+      background: url('offer.jpg') no-repeat center/cover;
       opacity: 0.8;
       }
 .o{
