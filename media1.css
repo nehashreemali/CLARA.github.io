@@ -2,9 +2,6 @@
     padding:0px;
     margin:0px;
 }
-
-
-}
 :root{
     --body-font-size:6rem;
     --h1-font-size:2.25rem;
@@ -38,6 +35,8 @@ body{
     position: fixed;
     display:flex;
     background-color:#F0F1F3;
+    border: 2px solid black;
+    width:1020px;
    
 }
 
@@ -49,7 +48,7 @@ body{
 #logo h3{
     padding:20px;
     padding-left: 100px;
-    padding-right: 700px;
+    padding-right: 300px;
     color:#101010;
 }
 #list li{
@@ -68,11 +67,11 @@ font-family:'Lato', sans-serif;
 }
 .container2{
     display:inline-block;
-    margin: 200px;
+   
     margin-right: 0px;
-    margin-top: 120px;
-    margin-left: 300px;
-    height: 400px;
+   
+    
+    height: 200px;
     width: 400px;
     margin-bottom: 0px;
     
@@ -83,14 +82,7 @@ font-family:'Lato', sans-serif;
 .head2{
     font-size: 40px;
 }
-.img img{
-    height:500px;
-    width: 350px;
-    float: right;
-    margin-right: 100px;
-    margin-top: 80px;
-   
-}
+
 .btn{
     margin-top: 10px;
     height: 50px;
@@ -176,7 +168,7 @@ text-align: center;
     padding: 40px;
 }
 .offer{
-      background: url('/offer.jpg') no-repeat center/cover;
+      background: url('/offer.jpg');
       opacity: 0.8;
       }
 .o{
